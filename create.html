@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/milligram.css">
+</head>
+<body>
+    <div id="loader" class="loading d-none"></div>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <label>Product Name</label>
+                <input type="text" id="productName">
+                <label>Product Code</label>
+                <input type="text" id="productCode">
+                <label>Unit Price</label>
+                <input type="text" id="unitPrice">
+                <label>Product Qty</label>
+                <input type="text" id="productQty">
+                <label>Total Price</label>
+                <input type="text" id="productTotal">
+                <button onclick="CreateProduct()">Submit</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/axios.min.js"></script>
+    <script src="js/create.js"></script>
+</body>
+</html>
